@@ -1,0 +1,172 @@
+body{
+    font-family: cursive;
+    background: #06283D;
+}
+
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.navbar-inverse .navbar-brand{
+    font-size: 22px;
+    color: #f0ffff;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 22px;
+    color: #f0ffff;
+}
+
+#div1{
+    background-color: #DFF6FF;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    top: 0;
+}
+
+#sec_mr{
+    background-color: #47B5FF;
+    color: #000;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+#m1{
+    background-color: #47B5FF;
+    color: #000;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    
+}
+#eng{
+    font-size: 22px;
+    border: grey solid 1px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+#hindi{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 25px;
+    border: grey solid 1px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+#mara{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 25px;
+    border: grey solid 1px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+#tamil{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-size: 25px;
+    border: grey solid 1px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+#telugu{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: 'Tiro Telugu', serif;
+    font-size: 25px;
+    border: grey solid 1px;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#m2{
+    background-color: #47B5FF;
+    color: #000;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+#movie1{
+    width: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#movie2{
+    width: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#movie3{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#more{
+    font-size: 22px;
+}
+
+#m3{
+    background-color: #47B5FF;
+    color: #000;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+#series1{
+    width: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#series2{
+    width: 200px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#series3{
+    width: 200px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

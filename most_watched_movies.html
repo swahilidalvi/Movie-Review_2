@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Movie Review</title>
+    <link rel="stylesheet" href="lang_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body style="font-family: cursive; background: #06283D;">
+        <nav class="navbar-inverse my_nav_bar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" onclick="M_R()">Movie Review</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li><a onclick="M_R()">Languages</a></li>
+                    <li><a onclick="M_R()">Most Watched Movies</a></li>
+                    <li><a onclick="M_R()">Most Watched Series</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div id="div1">
+                <div id="div2">
+                    <center>
+                        <h2 style="color: #fff;" id="title">Most Watched Movies</h2>
+                    </center>
+                </div>
+                <br>
+                <div id="div2" style="color: #fff;">
+                    <center>
+                        <span><img id="movie1" src="movie_1.jpg" onclick="m2_movie1()"></span>
+                        <span><img id="movie2" src="movie_2.jpg" onclick="m2_movie2()"></span>
+                        <span><img id="movie3" src="movies_3.jfif" onclick="m2_movie3()"></span>
+                        <br>
+                        <span><img id="movie1" src="movie_1.jpg" onclick="m2_movie1()"></span>
+                        <span><img id="movie2" src="movie_2.jpg" onclick="m2_movie2()"></span>
+                        <span><img id="movie3" src="movies_3.jfif" onclick="m2_movie3()"></span>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <script src="mwm_js.js"></script>
+        <script src="main_1.js"></script>
+    </body>
+</html>

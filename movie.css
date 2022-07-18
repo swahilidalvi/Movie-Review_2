@@ -1,0 +1,26 @@
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+    cursor: pointer;
+}
+.navbar-inverse .navbar-brand{
+    font-size: 22px;
+    color: #f0ffff;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 22px;
+    color: #f0ffff;
+}
+
+#div1{
+    background-color: #DFF6FF;
+    padding: 10px;
+}
+#name{
+    font-size: 25px;
+}
+#star{
+    color: orange;
+    font-size: 20px;
+}
